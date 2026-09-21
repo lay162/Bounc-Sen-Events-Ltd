@@ -89,7 +89,6 @@ If Search Console asks for HTML-tag verification, paste the tag into the `<head>
 ## Quick check before launch
 
 ```bash
-cd bounc-sen-events
 grep -rn "bounc-sen-events.co.uk" --include="*.html" --include="*.xml" --include="*.txt" .
 ```
 

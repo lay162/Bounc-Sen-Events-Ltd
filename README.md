@@ -43,7 +43,6 @@ third-party origin. All three are gone:
 Double-click `index.html`, or serve the folder so the paths behave exactly like they will live:
 
 ```bash
-cd bounc-sen-events
 python3 -m http.server 8080
 ```
 
@@ -162,10 +161,9 @@ The evidence-led keyword, citation, backlink and review plan is in
 
 ## Hosting
 
-The live copy is stored in the separate
-[`lay162/Bounc-Sen-Events-Ltd`](https://github.com/lay162/Bounc-Sen-Events-Ltd) repository. Its
-active `.github/workflows/deploy-pages.yml` publishes every push to `main` through GitHub Pages.
-Domain and DNS instructions are in
+This repository, [`lay162/Bounc-Sen-Events-Ltd`](https://github.com/lay162/Bounc-Sen-Events-Ltd),
+is the live copy. `.github/workflows/deploy-pages.yml` publishes every push to `main` through
+GitHub Pages. Domain and DNS instructions are in
 [`docs/domain-and-github-pages.md`](docs/domain-and-github-pages.md).
 
 ## Accessibility
